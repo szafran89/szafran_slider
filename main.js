@@ -1,3 +1,3 @@
 $(document).ready(function() {
-  $(".slider").szafran_slider({'delay': 8000});
+  $(".slider").szafran_slider();
 });
