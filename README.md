@@ -3,12 +3,12 @@ szafran_slider
 
 A simple jQuery responsive horizontal slider plug-in. Very basic, simple to use and modify.
 
-Options with defaults vaues in version 1.1
+Options with defaults values in version 1.1
 
     'slidesContainer': 'slider-container',
     'pagination': 'pagination',
     'start': 0,
-    'auto': true,
+    'auto': true, (true or false)
     'delay': 6000
 
 How to use
