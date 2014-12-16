@@ -1,0 +1,56 @@
+.slider {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    .slider-container{
+        position: relative;
+        .clearfix();
+        > *{
+            float: left;
+        }
+    }
+    .pagination { 
+        float: none;
+        bottom: 0;
+        right: 0;
+        left : 0;
+        position : absolute;
+        text-align: center;
+        margin-bottom: 0px;
+        .child {
+            cursor: pointer;
+            border: 1px solid #B4B4B4;
+            display: inline-block;
+            width: 5px;
+            margin: 0 3px;
+            height: 5px;
+            padding: 3px;
+            background-color: #208ec3;
+            opacity: 0.9;
+            &.active {
+                opacity: 0.5;
+            }
+        }
+    }
+    .prev {
+        position: absolute;
+        left: 20px;
+        top: 20px;
+        display: block;
+        width: 0;
+        height: 0;
+        border-top: 5px solid transparent;
+        border-right: 10px solid #000;
+        border-bottom: 5px solid transparent;
+    }
+    .next {
+        position: absolute;
+        left: 40px;
+        top: 20px;
+        width: 0;
+        height: 0;
+        border-top: 5px solid transparent;
+	border-left: 10px solid #000;
+	border-bottom: 5px solid transparent;
+    }
+}
