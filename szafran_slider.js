@@ -54,7 +54,7 @@
             $pagination.append('<div class="child">');
         }
 
-        // set active pagination element
+        // set active element of pagination
         $pagination.find('.child').eq(settings['startSlide']).addClass('active');
 
         if (!settings['pagination']) {
