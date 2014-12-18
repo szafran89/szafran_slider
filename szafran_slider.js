@@ -1,7 +1,7 @@
 /*
  * jQuery Responsive Horizontal Slider
  *
- * Authored by Paweł Szafrańśki aka Szafran
+ * Authored by Paweł Szafrański aka Szafran
  *
  * Copyright 2014, Paweł Szafrański
  * License: GNU General Public License, version 3 (GPL-3.0)
